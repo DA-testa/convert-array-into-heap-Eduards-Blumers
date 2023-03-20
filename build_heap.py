@@ -2,9 +2,9 @@
 
 def heapify(data, n, i, swaps):
 
-    smallest = i     # Initialize smallest as root
-    l = 2 * i + 1    # left = 2*i + 1
-    r = 2 * i + 2    # right = 2*i + 2
+    smallest = i  
+    l = 2 * i + 1 
+    r = 2 * i + 2
 
     if l < n and data[l] < data[smallest]:
         smallest = l
